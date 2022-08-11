@@ -6,9 +6,9 @@ Based on most of the information introduced to us in this module, I have learned
 ## Purpose of the School District Analysis
 The main purpose of this project is to conduct a school district analysis using Anaconda &amp; Jupyter Notebook. The data we are analyzing comes from two sources: one is a csv containing school data and another is a csv containing data on the students from those schools. The school data file contains information related to the school name, the type of school (whether Charter or District), the size of the school, and the budget of the school. The data on the students contains information such as their name, school, grade, and individual scores on math and reading. In other words the main purpose was to be able represent the data in different ways as in real world data will present day by day. As examples show below;
 
-[[https://github.com/salvamike/Images-demo/blob/main/average_math_scores.png|alt=octocat]]
+[[https://github.com/salvamike/Images-demo/blob/main/average_math_scores.png]]
 
-[[https://github.com/salvamike/Images-demo/blob/main/reading_scores_by_grade.png|alt=octocat]]
+[[https://github.com/salvamike/Images-demo/blob/main/reading_scores_by_grade.png]]
 
 # Results
 ## How is the district summary affected?
