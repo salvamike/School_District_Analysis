@@ -15,8 +15,7 @@ The district summary is actually not affected much by the changes of replacing 9
 ## How is the school summary affected?
 The school summary dataframe is affected in that after removing the false/altered data from the calculations, the scores drop overall for Thomas High School. When the falsified data was included, the scores were much higher for the percentage of those passing math, reading, and overall. When the data is excluded, the passing scores drop from the mid 90's to the mid 60's. This makes sense, given that the falsified/innacurate data would reflect a higher score overall and that the general scores would drop when the data is not counted. See the differences below in the two graphs (one for the original, and one that is filtered). This data is different because we have replaced the 9th grade reading and math scores at Thomas High School with NaN in the beginning of this analysis.
 ## How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
-Replacing the ninth graders' math and reading scores with Nan values clearly affects Thomas High School's performance relative to the other schools by showing that Thoma High School's freshmen are relatively struggling. The scores drop clearly when the innacurate data is excluded. For example, in the original code, when we sorted by top 5 schools, Thomas High School actually came in rated second. However, when substituting Nan for the inaccurate values, Thomas High School's % overall passing drops down around 65%, bringing it's standing compared to the other schools, much lower. 
-### Original Top Performing Schools
+Replacing the ninth graders' math and reading scores with Nan values clearly affects Thomas High School's performance relative to the other schools by showing that Thoma High School's freshmen are relatively struggling. The scores drop clearly when the innacurate data is excluded. For example, in the original code, when we sorted by top 5 schools, Thomas High School actually came in rated second. However, when substituting Nan for the inaccurate values, Thomas High School's % overall passing drops down around 65%, bringing it's standing compared to the other schools, much lower.
 ## How does replacing the ninth-grade scores affect the following: 
 ### Math and reading scores by grade
 Replacing the ninth-graders scores affects the math and reading scores by grade simply by excluding the data for that column for that specific grade and that specific school. The data simply becomes Nan or null. All other data is left untouched for the other schools. Only Thomas High School is affected in the data that shows scores by grade. See images below. 
@@ -28,14 +27,9 @@ Replacing the ninth-graders scores does not actually affect the scores by school
 ![Schools Spending Updated](https://user-images.githubusercontent.com/73972332/102049718-43fd6200-3d96-11eb-932d-8c74eda1347d.png)
 ### Scores by school size
 When we view the dataframes for scores by school size, we encounter the same phenomenon as we did in the last section (scores by spending), in that the data remains relatively unchanged from the first dataframe to the second, because we eliminated the ninth grader information from the average and passing scores, but the challenge code never asked us to update the total student number. For this reason, and because the 10th-12th graders had relatively the same scores as was counted in the original code with the inaccurate data of the 9th graders, we can see that there is really no difference of output below. Also the school size (even if we subtract the amount of 9th grader students), remains in the Medium Range(1,000 - 2,000). 
-#### Scores by School Size Original
-![scores school size original](https://user-images.githubusercontent.com/73972332/102049992-cede5c80-3d96-11eb-8452-a102a78a50a2.png)
-#### Scores by School Size Updated
-![scores school size updated](https://user-images.githubusercontent.com/73972332/102050008-d56cd400-3d96-11eb-86f3-ae2e1000c152.png)
 ### Scores by school type
 In this next section, we again see the same type of outcome that we saw in the previous two sections. The data remains unchanged in the scores by school type because again, we have eliminated the 9th grade null data, and replaced our datasets with only the passing grade info from 10th to 12th grade. If we left the dataset as affected by the null values, we would see a change in the scores, however at the end of the challenge code, we replaced this lower data, with info that shows just from the 10th-12th grades, which bring our scores back to the same as they were originally. 
 
-![scores school type updated](https://user-images.githubusercontent.com/73972332/102050805-51b3e700-3d98-11eb-8f80-a07f22f29640.png)
 # Summary
 ## Summary of 4 Major Changes in Updated DataFrame
 Major changes to the school district analysis after reading and math scores have been replaced are: 
