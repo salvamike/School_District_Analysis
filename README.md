@@ -4,7 +4,11 @@
 Based on most of the information introduced to us in this module, I have learned that Python can be used to pull data from one place and save it in another, as well as automate a wide variety of tasks. With Pandas, Python becomes a powerful data analysis tool in its own right and can transform and validate data, perform sophisticated data analysis, and even create data visualizations. More or less makes anything complex more manageable as far the syntax learning process.
 
 ## Purpose of the School District Analysis
-The main purpose of this project is to conduct a school district analysis using Anaconda &amp; Jupyter Notebook. The data we are analyzing comes from two sources: one is a csv containing school data and another is a csv containing data on the students from those schools. The school data file contains information related to the school name, the type of school (whether Charter or District), the size of the school, and the budget of the school. The data on the students contains information such as their name, school, grade, and individual scores on math and reading. In other words the main purpose was to be able represent the data in different ways as in real world data will present day by day.
+The main purpose of this project is to conduct a school district analysis using Anaconda &amp; Jupyter Notebook. The data we are analyzing comes from two sources: one is a csv containing school data and another is a csv containing data on the students from those schools. The school data file contains information related to the school name, the type of school (whether Charter or District), the size of the school, and the budget of the school. The data on the students contains information such as their name, school, grade, and individual scores on math and reading. In other words the main purpose was to be able represent the data in different ways as in real world data will present day by day. As examples show below;
+
+![average math scores](/Images-demo/average_math_scores.png)
+
+![reading scores by grade](/Images-demo/reading_scores_by_grade.png)
 
 # Results
 ## How is the district summary affected?
